@@ -1,4 +1,4 @@
-import { User } from "src/user/models/user"
+import { User } from "src/user/entities/user.entity"
 
 export class UserData {
 
