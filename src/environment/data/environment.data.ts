@@ -15,13 +15,8 @@ export class environmentData {
         },
         {
             id: 3,
-            room: "Quarto casal",
+            room: "Quarto",
             value: 876,
         },
-        {
-            id: 4,
-            room: "Banheiro",
-            value: 139,
-        }
     ]
 }

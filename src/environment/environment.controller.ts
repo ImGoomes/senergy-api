@@ -7,7 +7,7 @@ export class EnvironmentController {
   constructor(private readonly environmentService: EnvironmentService) {}
 
   @Get()
-  async findAll(): Promise<Environment[]>{
+  findAll(){
     return this.environmentService.findAll();
   }
 

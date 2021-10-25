@@ -7,12 +7,12 @@ export class UserController {
   constructor(private readonly appService: UserService) { }
 
   @Get()
-  async login(@Req() user: User): Promise<User[]> {
+  login(@Req() user: User) {
     return this.appService.findLogin(user);
   }
 
   @Get(':id')
-  async getUser(@Param('id') id: string): Promise<User> {
+  getUser(@Param('id') id: string) {
     return this.appService.findById(+id);
   }
 }

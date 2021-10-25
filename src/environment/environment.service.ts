@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { environmentData } from './data/environment';
+import { environmentData } from './data/environment.data';
 import { Environment } from './entities/environment.entity';
 
 @Injectable()
